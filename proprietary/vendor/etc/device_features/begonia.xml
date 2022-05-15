@@ -29,7 +29,7 @@
     <!--whether the device supports record param-->
     <bool name="support_record_param">false</bool>
     <!--whether the device supports interview record param-->
-    <bool name="support_interview_record_param">true</bool>
+    <bool name="support_interview_record_param">false</bool>
     <!--whether the device supports stereo record-->
     <bool name="support_stereo_record">true</bool>
     <!--whether the device supports screenrecorder inner-sound recorder mode-->
@@ -378,4 +378,13 @@
     <integer name="ifaa_2dfa_support">1</integer>
     <!-- whether support hangup while screen turnning off -->
     <bool name="support_hangup_while_screen_off">true</bool>
+    <!-- NLSound Tweaks -->
+    <bool name="support_ad2p_latency">true</bool>
+    <bool name="support_samplerate_48000">true</bool>
+    <bool name="support_samplerate_96000">true</bool>
+    <bool name="support_samplerate_192000">true</bool>
+    <bool name="support_low_latency">true</bool>
+    <bool name="support_mid_latency">true</bool>
+    <bool name="support_high_latency">true</bool>
+    <bool name="support_voip_record">true</bool>
 </features>
